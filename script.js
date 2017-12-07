@@ -1,18 +1,19 @@
 function calculateGrade(grade) {
-    if(grade = "apple" || "banana"){
+    if(grade >= 90){
         return "A";
-    } else{
+    } 
+    else if (grade >= 80){
         return "B";
     }
-    // else if(grade >=70){
-    //     alert("C");
-    // }
-    // else if (grade >= 60){
-    //     alert("D");
-    // }
-    // else {
-    //     alert("F");
-    // }
+    else if(grade >=70){
+        return "C";
+    }
+    else if (grade >= 60){
+        return "D";
+    }
+    else {
+        return "F";
+    }
 
 
    }
